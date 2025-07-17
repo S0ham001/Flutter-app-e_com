@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:login/dashboard_page.dart';
 import 'login_page.dart';
+import 'cart_page.dart';
+import 'insta.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -32,7 +34,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: DashboardPage(),
+      home: instaPage(),
     );
   }
 }
